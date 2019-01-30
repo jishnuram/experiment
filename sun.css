@@ -1,0 +1,56 @@
+body{
+	background-color: #d60129;
+}
+
+.sun{
+	width: 200px;
+	height: 200px;
+	background-image: linear-gradient(orange, #d60129);
+	border-radius: 50%;
+
+
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+}
+
+.sea{
+
+	height: 50%;
+	width: 100%;
+	background-image: linear-gradient(#BC0628, #d60129);
+
+	position: absolute;
+	bottom: 0px;
+}
+
+.reflection {
+	width: 200px;
+	height: 20px;
+	background-image: linear-gradient(#d60129, rgba(255,0,0,0));
+	border-radius: 50%;
+	opacity: 0.5;
+
+
+		position: absolute;
+		top: 55%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+}
+
+.reflection2{
+	width: 100px;
+	height: 10px;
+	background-image: linear-gradient(#d60129, rgba(255,0,0,0));
+	border-radius: 50%;
+	opacity: 0.5;
+
+
+		position: absolute;
+		top: 60%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+}
